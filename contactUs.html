@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="contactmain">
+    <header class="abhead" id="abhead">
+      <a href="index.php"
+        ><i class="bx bxs-home-smile"></i><span class="abcap">Home</span></a
+      >
+      <a href="blog.php"
+        ><i class="bx bxl-blogger"></i><span class="abcap">Blog</span></a
+      >
+      <a href="services.html">
+        <i class="bx bxs-hard-hat"></i><span class="abcap">Services</span></a
+      >
+      <a href="aboutUs.html"
+        ><i class="bx bxs-message-square-add"></i
+        ><span class="abcap">About Us</span></a
+      >
+     
+    </header>
+
+      <form action="#" method="POST">
+        <div class="contact">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message"></label>
+          <textarea id="message" name="message" rows="5" required placeholder="Type your Message here..."></textarea>
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+
+  </body>
+</html>
